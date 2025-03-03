@@ -1,5 +1,7 @@
 /* GNOME Design Team Page - Styled for GitHub Pages */
 
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap');
+
 body {
     font-family: "Cantarell", Arial, sans-serif;
     margin: 0;
@@ -7,28 +9,29 @@ body {
     background: url('https://welcome.gnome.org/assets/background.svg') no-repeat center center fixed;
     background-size: cover;
     color: #2e3436;
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-header {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    color: #4a90d9;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-main {
+.container {
     max-width: 900px;
     margin: 40px auto;
     padding: 40px;
     background: rgba(255, 255, 255, 0.95);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
+    text-align: center;
+}
+
+h1 {
+    color: #4a90d9;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 h2 {
@@ -58,4 +61,5 @@ ul {
     padding-left: 20px;
     text-align: left;
     display: inline-block;
+    margin: 0 auto;
 }
